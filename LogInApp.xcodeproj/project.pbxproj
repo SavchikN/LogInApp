@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112C3E8529099C4D00FD6A0D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C3E8429099C4D00FD6A0D /* User.swift */; };
+		112C3E872909B4EA00FD6A0D /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C3E862909B4EA00FD6A0D /* AboutMeViewController.swift */; };
+		112C3E89290B29F000FD6A0D /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C3E88290B29F000FD6A0D /* MoreInfoViewController.swift */; };
 		114FB277290068FE005755B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB276290068FE005755B5 /* AppDelegate.swift */; };
 		114FB279290068FE005755B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB278290068FE005755B5 /* SceneDelegate.swift */; };
-		114FB27B290068FE005755B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB27A290068FE005755B5 /* ViewController.swift */; };
+		114FB27B290068FE005755B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB27A290068FE005755B5 /* LoginViewController.swift */; };
 		114FB27E290068FE005755B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114FB27C290068FE005755B5 /* Main.storyboard */; };
 		114FB280290068FF005755B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114FB27F290068FF005755B5 /* Assets.xcassets */; };
 		114FB283290068FF005755B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114FB281290068FF005755B5 /* LaunchScreen.storyboard */; };
+		114FB28B29006F04005755B5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FB28A29006F04005755B5 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112C3E8429099C4D00FD6A0D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		112C3E862909B4EA00FD6A0D /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		112C3E88290B29F000FD6A0D /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 		114FB273290068FE005755B5 /* LogInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		114FB276290068FE005755B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		114FB278290068FE005755B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		114FB27A290068FE005755B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		114FB27A290068FE005755B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		114FB27D290068FE005755B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		114FB27F290068FF005755B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114FB282290068FF005755B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114FB284290068FF005755B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114FB28A29006F04005755B5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112C3E7F29099B7B00FD6A0D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				114FB276290068FE005755B5 /* AppDelegate.swift */,
+				114FB278290068FE005755B5 /* SceneDelegate.swift */,
+				114FB284290068FF005755B5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		112C3E8029099B8400FD6A0D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				114FB27A290068FE005755B5 /* LoginViewController.swift */,
+				114FB28A29006F04005755B5 /* WelcomeViewController.swift */,
+				112C3E862909B4EA00FD6A0D /* AboutMeViewController.swift */,
+				112C3E88290B29F000FD6A0D /* MoreInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		112C3E8129099B9100FD6A0D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				114FB27C290068FE005755B5 /* Main.storyboard */,
+				114FB281290068FF005755B5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		112C3E8229099BA200FD6A0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				114FB27F290068FF005755B5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		112C3E8329099BA800FD6A0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				112C3E8429099C4D00FD6A0D /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		114FB26A290068FE005755B5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +110,11 @@
 		114FB275290068FE005755B5 /* LogInApp */ = {
 			isa = PBXGroup;
 			children = (
-				114FB276290068FE005755B5 /* AppDelegate.swift */,
-				114FB278290068FE005755B5 /* SceneDelegate.swift */,
-				114FB27A290068FE005755B5 /* ViewController.swift */,
-				114FB27C290068FE005755B5 /* Main.storyboard */,
-				114FB27F290068FF005755B5 /* Assets.xcassets */,
-				114FB281290068FF005755B5 /* LaunchScreen.storyboard */,
-				114FB284290068FF005755B5 /* Info.plist */,
+				112C3E8329099BA800FD6A0D /* Models */,
+				112C3E7F29099B7B00FD6A0D /* App */,
+				112C3E8029099B8400FD6A0D /* ViewControllers */,
+				112C3E8129099B9100FD6A0D /* Storyboards */,
+				112C3E8229099BA200FD6A0D /* Resources */,
 			);
 			path = LogInApp;
 			sourceTree = "<group>";
@@ -138,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				114FB27B290068FE005755B5 /* ViewController.swift in Sources */,
+				114FB27B290068FE005755B5 /* LoginViewController.swift in Sources */,
+				114FB28B29006F04005755B5 /* WelcomeViewController.swift in Sources */,
 				114FB277290068FE005755B5 /* AppDelegate.swift in Sources */,
+				112C3E89290B29F000FD6A0D /* MoreInfoViewController.swift in Sources */,
+				112C3E8529099C4D00FD6A0D /* User.swift in Sources */,
+				112C3E872909B4EA00FD6A0D /* AboutMeViewController.swift in Sources */,
 				114FB279290068FE005755B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYGD22Q689;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LogInApp/Info.plist;
+				INFOPLIST_FILE = LogInApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,9 +358,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.wkids.LogInApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JYGD22Q689;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LogInApp/Info.plist;
+				INFOPLIST_FILE = LogInApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,9 +389,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.wkids.LogInApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
